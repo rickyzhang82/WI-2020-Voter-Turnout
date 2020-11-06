@@ -3,9 +3,11 @@ What
 
 This is Python notebook caculate WI 2020 General Election turn out. All data is public from below:
 
-- WI county voters Source [WI-county.json](https://www.wsj.com/election-results-2020-data/president/WI-county.json)
+- WI voters count per county in 2020 General Election from WSJ [WI-county.json](https://www.wsj.com/election-results-2020-data/president/WI-county.json)
 - [County FIPS code](https://github.com/kjhealy/fips-codes)
-- [RegisteredVotersByCounty_11-01-2020.xlsx](https://elections.wi.gov/sites/elections.wi.gov/files/2020-11/RegisteredVotersByCounty_11-01-2020.xlsx)
+- WI registered voter on 11/01/2020 [RegisteredVotersByCounty_11-01-2020.xlsx](https://elections.wi.gov/sites/elections.wi.gov/files/2020-11/RegisteredVotersByCounty_11-01-2020.xlsx)
+- WI voters count per county in 2016 General Election [County by County Report President of the United States Recount.xlsx](https://elections.wi.gov/sites/elections.wi.gov/files/County%20by%20County%20Report%20President%20of%20the%20United%20States%20Recount.xlsx)
+- WI registered voter on 11/16/2020 [registeredvotersbycounty_xlsx_13527.xlsx](https://elections.wi.gov/sites/elections.wi.gov/files/publication/registeredvotersbycounty_xlsx_13527.xlsx)
 
 It shows extremely high voter turn outs:
 
