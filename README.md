@@ -1,6 +1,14 @@
 What
 ====
 
+I did an indepdent study on public available data from 2020 Wisconsin voting general election. Two studies has been coudcted:
+
+1. Abnormal voter turnout state-wide and county-wide.
+1. Abnormal vote count in Milwaukee County.
+
+Abnormal Voter Turnout
+======================
+
 This Python notebook caculates WI 2020 General Election turn out. All data is public from below:
 
 - WI voters count per county in 2020 General Election from WSJ [WI-county.json](https://www.wsj.com/election-results-2020-data/president/WI-county.json)
@@ -95,3 +103,13 @@ We should have voting record by now whether the registered voters have casted ba
 
 We only need to sample 1,000 registered voters and ask them if they have casted the ballot LEGALLY or not to verify  if the turnout is too good to be true.
 
+Benford's Law Shows Abnormal Vote Count in Milwaukee County Ward
+================================================================
+
+In statistics, there is an interesting number law called [Benford's Law](https://en.wikipedia.org/wiki/Benford%27s_law). The idea is simple: in many naturally occurring collections of numbers, the leading digit is likely to be small.
+
+For example, the number 1 appears as the leading significant digit about 30% of the time, while 9 appears as the leading significant digit less than 5% of the time. The distribution of the leading number decrease exponentially.
+
+Everyone's vote count follow Benford's Law except Joe Biden. This should raise **a red flag** and deserve further **investigation**.
+
+![](images/Milwaukee-County-Ward-Vote-Benford-Law.png)
